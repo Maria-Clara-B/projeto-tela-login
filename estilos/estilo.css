@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #849a28;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden; /*todo o conteúdo fora da caixa é escondido*/
+
+    height: 550px;
+    width: 300px;
+    background-color: #e23260;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+
+    transform: translate(-50%, -50%);
+}
+
+#formulario{
+    padding: 15px;
+    text-align: justify;
+}
+
+#formulario > p{
+    color: white;
+}
+
+section > div#imagem{
+    background: url(../pexels-laup-6799815.jpg) no-repeat;
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    background-position: bottom left;
+    
+}
+
+form{
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+}
+
+.campo {
+    background-color: #f2678e;
+    width: 100%;
+    height: 40px;
+
+}
+
+.campo > label{
+    display: none;
+}
+
+.campo > span{
+    color: white;
+}
+
+input[type=submit]{
+    height: 30px;
+    width: 100%;
+
+    margin-top: 5px;
+    background-color: #849a28;
+    color: white;
+    border: 1px solid #849a28;
+    border-radius: 5px;
+}
+    
+form > a.botao{
+    display: block;
+    height: 30px;
+    width: 100%;
+    color: white;
+    background-color: #e23260;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
