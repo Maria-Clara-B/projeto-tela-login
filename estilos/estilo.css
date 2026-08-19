@@ -29,9 +29,12 @@ section{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
 
     transform: translate(-50%, -50%);
+    transition: .2s;
+    transition-timing-function: ease;
 }
 
 #formulario{
+    display: block;
     padding: 15px;
     text-align: justify;
 }
@@ -41,6 +44,7 @@ section{
 }
 
 section > div#imagem{
+    display: block;
     background: url(../download.jpg) no-repeat;
     height: 200px;
     width: 400px;
@@ -52,6 +56,10 @@ section > div#imagem{
 form{
     margin: 5px 0px 5px 0px;
     border-radius: 5px;
+}
+
+h1{
+    color: white;
 }
 
 .campo {
